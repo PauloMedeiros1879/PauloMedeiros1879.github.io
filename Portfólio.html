@@ -6,13 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios</title>
 <style>
-#meu_nome{font-family:Arial, Helvetica, sans-serif;}
 
-#description{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{
+  border: 1px solid;
+  background-image: url(imagemPortfólio.jpg);
+    background-position: cover;
+    color: white;
+    margin: auto;
+}
 
-body {background-color:gray}
-ul{font-style: oblique;}
-.habilidades{font-size: 15px;}
+#meu_nome{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;   
+}
+
+#minhaFoto{
+    float: left;
+    border-radius: 50%;
+}
+
+#description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+li{
+    font-style: oblique;
+    text-align: center;
+}
+
+#HabilidadesTitulo{
+    text-align: center;
+}
     
 </style>
     
@@ -25,7 +50,7 @@ ul{font-style: oblique;}
 
     <hr>
 
-<img src="Eu.png" width="300px" alt="Foto do Paulo">
+<img id="minhaFoto" src="Eu.jpg" width="300px" alt="Foto do Paulo">
 
 <p id="description"><em>
     Sou estudante de Desenvolvimento Web da Trybe!
@@ -34,22 +59,22 @@ ul{font-style: oblique;}
 
     <a href="https://www.linkedin.com/in/paulo-alexandre-9bb465141" target="_blank">Linkedin</a>
     <a href="https://github.com/PauloMedeiros1879" target="_blank">Github</a>
-<ul>
+
     <li>Sou brasileiro</li>
     <li>Manacapuru/AM</li>
-</ul>
+
 
 <hr>
 
-<h3 id="Habilidades">Habilidades</h3>
+<h3 id="HabilidadesTitulo">Habilidades</h3>
 
-<ol class="habilidades">
+
     <li><strong>Autodidata</strong></li>
     <li>Comprometimento</li>
     <li>Pontualidade</li>
     <li>Persistência</li>
     <li>Colaboração</li>
-</ol>
+
 
 <hr>
 
