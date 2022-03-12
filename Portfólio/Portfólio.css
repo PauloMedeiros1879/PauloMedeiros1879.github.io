@@ -2,3 +2,55 @@
     margin: 0;
     padding: 0;
 }
+body {
+    width: 100%;
+}
+
+.container-header {
+    padding: 10px;
+    width: 1900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/imagens/backgroud-header.webp);
+    background-size: cover;
+}
+
+#myGif {
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.text-first {
+    color: white;
+    text-shadow: 
+               -1px -1px 0px red, 
+               -1px 1px 0px red,                    
+                1px -1px 0px red,                  
+                1px 0px 0px red;
+}
+
+.container-buttonsHeader {
+    display: flex;
+
+}
+
+.links {
+    font-family: monospace;
+    font-weight: 700;
+    text-decoration: none;
+    background-color:red;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius:6px;
+    margin: auto 10px 6px;
+}
+
+#myPhoto {
+    width: 300px;
+    border-radius: 150px;
+    display: block;
+    margin: 20px auto;
+}
