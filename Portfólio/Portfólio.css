@@ -2,7 +2,25 @@
     margin: 0;
     padding: 0;
 }
+
+html [data-theme="light"]{
+    --bg:#f5f6f7;
+    --color-text:#9c9c9c;
+    --color-shadow: -4px -2px 4px 0px #ffffff,
+                     4px 2px 6px 0px;
+}
+
+html [data-theme="dark"]{
+    --bg:#131419;
+    --color-text:#fff;
+    --color-shadow: -3px -3px 10px rgba(255,255,255,0.05)
+                     3px 3px 15px;
+}
+
 body {
+    background: var(--bg);
+    color: var(--color-text);
+    box-shadow: var(--color-shadow);
     width: 100%;
 }
 
@@ -23,12 +41,14 @@ body {
 }
 
 .text-first {
-    color: white;
+    font-family:sans-serif;
+    color: #08FDD8;
+    font-size: 40px;
     text-shadow: 
-               -1px -1px 0px red, 
-               -1px 1px 0px red,                    
-                1px -1px 0px red,                  
-                1px 0px 0px red;
+               -1px -1px 0px rgba(223, 134, 134, 0.561), 
+               -1px 1px 0px rgba(223, 134, 134, 0.561),                    
+                1px -1px 0px rgba(223, 134, 134, 0.561),                  
+                1px 0px 0px rgba(223, 134, 134, 0.561);
 }
 
 .container-buttonsHeader {
@@ -40,12 +60,19 @@ body {
     font-family: monospace;
     font-weight: 700;
     text-decoration: none;
-    background-color:red;
     color: white;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid black;
     border-radius:6px;
     margin: auto 10px 6px;
+    background-color: rgba(83, 238, 230, 0.45);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+.links:hover {
+    background-color:#08FDD8;
+    color: #000;
 }
 
 #myPhoto {
