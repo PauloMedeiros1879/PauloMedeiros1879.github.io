@@ -22,14 +22,8 @@ body {
     background-color: rgba(7, 57, 87, 0.883);
 }
 
-#myGif {
-    width: 130px;
-    border-radius: 20px;
-    margin-left: 30px;
-}
-
 .text-first {
-    margin-left: 270px;
+    margin-right: 360px;
     font-family:sans-serif;
     color: #08FDD8;
     font-size: 40px;
