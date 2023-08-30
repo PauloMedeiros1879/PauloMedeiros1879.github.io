@@ -156,7 +156,6 @@ body {
 
 #container-contents {
     padding-top: 20px;
-    padding-top: 20px;
     text-align: center;
 }
 
@@ -178,6 +177,10 @@ body {
 #container-projects {
     margin: 2.0em;
     text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
@@ -190,4 +193,8 @@ footer {
     color: white;
     border-top: #08FDD8 5px double;
     border-bottom: #08FDD8 5px double;
+}
+
+.projects {
+    text-decoration:none;
 }
